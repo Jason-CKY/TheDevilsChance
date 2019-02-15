@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &732633908334661726
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6095914126920788591}
+  - component: {fileID: 622967746764372983}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6095914126920788591
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732633908334661726}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.999998, y: 0.5766915, z: -46.383007}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &622967746764372983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732633908334661726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 372233671b9c97c4cbe4e4402d2ee9c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BG_List:
+  - {fileID: 8300000, guid: d9643e957dd489b47afbf083edc25354, type: 3}
+  - {fileID: 8300000, guid: 814d512bc6c51234e98b67149b6d5d75, type: 3}
+  - {fileID: 8300000, guid: 902a0a163ff8d5a4190fecfa165fa7d9, type: 3}
+  Collect_Sound: {fileID: 8300000, guid: 41a9a4bd32b913643813967d69f9fcb5, type: 3}
+  Door_Open: {fileID: 8300000, guid: 04c263161ed2a574286b5d2c3d28ed60, type: 3}
+  Dying_Sound: {fileID: 8300000, guid: 769c1ba002de1b843b34145fa84bda96, type: 3}
+  Starting_BGM: {fileID: 8300000, guid: ed26976c4aadcdb40a1f286ff7b6b2c7, type: 3}
+  Ending_BGM: {fileID: 8300000, guid: cfcf3ec83a37eb740962da9ee1febe46, type: 3}
+  Starter_Voice: {fileID: 8300000, guid: aa9f0a34d3b720d48bc154fd9b95f663, type: 3}
+  globalVolume: 1
+  globalMusicVolume: 0.5
+  globalSoundFXVolume: 1
