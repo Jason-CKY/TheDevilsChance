@@ -43,11 +43,7 @@ public class End_Card_Stats : MonoBehaviour
         //save the values
         SaveHighScore(NameList, HighscoreList, DeathcountList);
         //printArray();
-
-
-
     }
-
 
     string[] updateNameList()
     {
