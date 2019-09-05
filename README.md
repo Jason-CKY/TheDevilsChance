@@ -12,6 +12,11 @@ For the multiplayer portion, it can be played either through the same WI-FI rout
 The objective of the entire project is to create a fun and simple game to play for both multiplayer and single player. This is achieved by having a simple goal of avoiding enemies, collecting 9 gems and getting to the exit in the fastest time for single player and avoiding enemies, collecting 3 gems and getting to the exit faster than the other players for multiplayer. Controls for both are also made simple and intuitive. ‘W,A,S,D’ for movement, ‘spacebar’ to jump and arrow keys for camera adjustment if needed. The details of which are in the game design section.
 
 ## Game Design
+ 
+![Alt text](./Screenshots/Player.png)
+![Alt text](./Screenshots/Bat.png) 
+![Alt text](./Screenshots/Diamond.png) 
+
 The project made use of the following principles to appeal to the player. Focal point, anticipation, announcement of change, physics, sound, and challenge. For the focal point, it is basically the goal. Which is to collect all 9 gems without dying. Anticipation comes in when the player has played the game for a while and is anticipating where the enemy is coming from. Announcement of change comes in when the player has collected 3 gems for each level. By playing the sound of the door opening, the player would know that something somewhere has happened even if the player cannot actually see it. Realistic physics means that when the player stands below the moving platform on level 2, the player will get squished and die. Having a soundtrack allowed us to add to the mood of the game since it is in hell, most of the music is quite ominous. Lastly would be challenge. Despite the relatively simple storyline and goal, there is an element of challenge as there is a highscore board at the end of the game.
 
 ### Voice-over Narrations
